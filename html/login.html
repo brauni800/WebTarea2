@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+<head>
+    <title>Sistema de administracion de usuario</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href=".././css/loginStyle.css">
+    <script type="text/javascript" src=".././js/loginScript.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Entrada al Sistema</h1>
+    </div>
+
+    <form id="login" name="login" action=".././php/valida.php" method="POST" onsubmit="return validar()">
+        <fieldset>
+            <legend>Datos de entrada</legend>
+            <div>
+                <label>Usuario:</label>
+                <input id="user" name="user" type="text">
+            </div>
+            <div>
+                <label>Contraseña:</label>
+                <input id="pwd" name="pwd" type="password">
+            </div>
+        </fieldset>
+
+        <br>
+        <input id="aceptar" value="Aceptar" type="submit">
+        <input id="cancelar" value="Cancelar" type="button" onclick="cancelar()">
+    </form>
+
+
+</body>
+
+</html>

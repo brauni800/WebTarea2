@@ -1,0 +1,19 @@
+
+body {
+    background-color: khaki;
+}
+
+legend {
+    color: blue;
+}
+
+fieldset div label {
+    width: 100px;
+    color: blueviolet;
+    float: left;
+}
+
+.header {
+    text-align: center;
+    background-color: aqua;
+}

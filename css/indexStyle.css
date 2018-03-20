@@ -1,0 +1,131 @@
+body {
+    font-family: sans-serif;
+}
+
+p, h1 {
+    margin: 0;
+}
+
+.borde {
+    border: 3px solid black;
+}
+
+.header, .cuerpo, .piePagina {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.cuerpo {
+    height: 80%;
+}
+
+.encabezado, .entrar {
+    box-sizing: border-box;
+    margin: 10px 10px;
+}
+
+.encabezado {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entrar {
+    height: 20px;
+}
+
+div.encabezado div, div.piePagina div {
+    box-sizing: border-box;
+    float: left;
+}
+
+.divH1 {
+    width: 80%;
+}
+
+.divInput {
+    width: 20%;
+}
+
+.divInput input {
+    float: right;
+    margin-right: 10%;
+}
+
+.boxP, .boxG {
+    box-sizing: border-box;
+    float: left;
+    margin: 3% 2.5%;
+}
+
+div.cuerpo div.boxP.borde, div.cuerpo div.boxG.borde {
+    height: 85%;
+}
+
+.boxP {
+    width: 30%;
+}
+
+.boxG {
+    width: 60%;
+}
+
+.boxBanamex, .boxHsbc {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin: 15px;
+}
+
+.piePagina {
+    margin-top: 0.1%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista {
+    width: 80%;
+}
+
+.marca {
+    width: 20%;
+}
+
+div.marca label {
+    float: right;
+    margin-right: 10%;
+}
+
+h1 {
+    font-size: 40;
+}
+
+h3 {
+    margin: 20px 30px;
+    font-size: 35;
+}
+
+div.boxP p, div.boxG p {
+    padding: 0;
+    font-size: 35;
+}
+
+div.boxP p {
+    margin: 30px;
+    font-weight: bold;
+}
+
+div.boxG p {
+    margin: 0 30px;
+}

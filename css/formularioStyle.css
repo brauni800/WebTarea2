@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1/03/2018, 05:45:18 PM
+    Author     : A11003001
+*/
+
+#header {
+    text-align: center;
+    background-color: darkgreen;
+    color: yellow;
+}
+
+body {
+    background-color: khaki;
+}
+
+fieldset.identificacion div label {
+    display: inline-block;
+    width: 100px;
+}
+
+fieldset.identificacion div input {
+    display: inline;
+}
+
+fieldset.pago div input {
+    display: inline-block;
+    width: 50px;
+}
+
+fieldset.pago div label {
+    display: inline-block;
+}
+
+#advertencia1, #advertencia2, #advertencia3 {
+    margin-left: 30px;
+    color: red;
+}
+
+#advertencia2, #advertencia3 {
+    display: none;
+}
